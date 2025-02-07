@@ -22,3 +22,15 @@ body {
     max-width: 500px; 
     height: auto; 
 }
+
+.inside_joke {
+    font-family: 'Comic Sans MS', cursive;
+    animation: pulseJoke 1.5s infinite;
+    color: #ff69b4;
+}
+
+@keyframes pulseJoke {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1) rotate(-3deg); }
+    100% { transform: scale(1); }
+}
